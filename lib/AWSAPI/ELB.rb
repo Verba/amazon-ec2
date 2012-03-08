@@ -1,3 +1,5 @@
+require 'AWSAPI/ELB/load_balancers'
+
 module AWSAPI
   module ELB
 

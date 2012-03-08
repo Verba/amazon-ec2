@@ -1,3 +1,5 @@
+require 'AWSAPI/RDS/rds'
+
 module AWSAPI
   module RDS
 

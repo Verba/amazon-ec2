@@ -1,3 +1,5 @@
+require 'AWSAPI/Cloudwatch/monitoring'
+
 module AWSAPI
   module Cloudwatch
 

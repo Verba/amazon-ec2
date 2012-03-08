@@ -1,3 +1,5 @@
+require 'AWSAPI/Autoscaling/autoscaling.rb'
+
 module AWSAPI
   module Autoscaling
     # Which host FQDN will we connect to for all API calls to AWS?

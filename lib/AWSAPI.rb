@@ -371,5 +371,8 @@ module AWSAPI
   end
 end
 
-Dir[File.join(File.dirname(__FILE__), 'AWSAPI/**/*.rb')].sort.each { |lib| require lib }
-
+require 'AWSAPI/Autoscaling'
+require 'AWSAPI/Cloudwatch'
+require 'AWSAPI/EC2'
+require 'AWSAPI/ELB'
+require 'AWSAPI/RDS'

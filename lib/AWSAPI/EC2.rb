@@ -1,3 +1,21 @@
+require 'AWSAPI/EC2/availability_zones'
+require 'AWSAPI/EC2/console'
+require 'AWSAPI/EC2/devpay'
+require 'AWSAPI/EC2/elastic_ips'
+require 'AWSAPI/EC2/image_attributes'
+require 'AWSAPI/EC2/images'
+require 'AWSAPI/EC2/instances'
+require 'AWSAPI/EC2/keypairs'
+require 'AWSAPI/EC2/password'
+require 'AWSAPI/EC2/products'
+require 'AWSAPI/EC2/security_groups'
+require 'AWSAPI/EC2/snapshots'
+require 'AWSAPI/EC2/spot_instance_requests'
+require 'AWSAPI/EC2/spot_prices'
+require 'AWSAPI/EC2/subnets'
+require 'AWSAPI/EC2/tags'
+require 'AWSAPI/EC2/volumes'
+
 module AWSAPI
   module EC2
 
